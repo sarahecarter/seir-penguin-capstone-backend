@@ -2,7 +2,7 @@
 #### By Sarah Carter
 
 ## Description
-This project is a full-stack app that can be used by patients to track any symptoms that they are having. Users will have a dashboard which shows a list of the symptoms they are tracking. They will be able to add new symptoms, edit their symptoms, and delete any symptoms.
+This project is a full-stack app that can be used by patients to track any symptoms of illness that they are having. Users will have a dashboard which shows a list of the symptoms they are tracking. They will be able to add new symptoms, edit their symptoms, and delete any symptoms.
 
 ## MVP Goal
 Users will be able to add their symptoms in the form and will specify the body area, symptom, severity, a description, and the date that the symptom started. They will also be able to edit and delete symptoms.

@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "## Description This project is a full-stack app that can be used by patients to track any symptoms of illness that they are having. Users will have a dashboard which shows a list of the symptoms they are tracking. They will be able to add new symptoms, edit their symptoms, and delete any symptoms.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahecarter/seir-penguin-capstone-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahecarter/seir-penguin-capstone-backend/issues"
+  },
+  "homepage": "https://github.com/sarahecarter/seir-penguin-capstone-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
