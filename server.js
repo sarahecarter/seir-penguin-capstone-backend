@@ -36,7 +36,7 @@ mongoose.connection
 const SymptomSchema = new mongoose.Schema({
     bodyPart: String,
     symptom: String,
-    startDate: Date,
+    startDate: String,
     severity: {type: Number, min: 1, max: 10},
     notes: String
 })
@@ -95,6 +95,8 @@ app.delete("/symptoms/:id", async (req,res) => {
         res.status(400).json(error)
     }
 })
+
+
 
 ///////////////////
 // Listener
