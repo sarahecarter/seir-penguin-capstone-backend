@@ -38,7 +38,8 @@ const SymptomSchema = new mongoose.Schema({
     symptom: String,
     startDate: String,
     severity: {type: Number, min: 1, max: 10},
-    notes: String
+    notes: String,
+    active: Boolean
 })
 
 const Symptom = mongoose.model("Symptom", SymptomSchema)
